@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand logo" href="#" style = "font-size: 35px;">Phones Forever</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -25,7 +25,7 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Today's deals</a>
+            <a class="nav-link" href="#deals">Today's deals</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -51,23 +51,20 @@
 
   <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
     </div>
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="images/foldables.webp" class="d-block w-100" id = "carousel-img" alt="foladables">
+        <img src="images/carousel1.jpg" class="d-block w-100" id = "carousel-img" alt="foladables">
       </div>
       <div class="carousel-item">
-        <img src="images/apple-2023-1.jpg" class="d-block w-100" id = "carousel-img" alt="apple">
+        <img src="images/carousel2.jpg" class="d-block w-100" id = "carousel-img" alt="apple">
       </div>
       <div class="carousel-item">
-        <img src="images/s23maybe.jpg" class="d-block w-100" id = "carousel-img" alt="android">
+        <img src="images/carousel3.jpg" class="d-block w-100" id = "carousel-img" alt="android">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -84,34 +81,34 @@
 
 
 
-  <div id="background">
+  <div id="deals">
     <div id="heading">
-      <h1>
-
+      <h1 class = "heading">
         Check out our offers for today!
-
       </h1>
     </div>
-    <div class="container ">
-      <div class="card" style="width: 18rem; margin-left:20px">
-        <img src="images/foldables.webp"card-img-top" alt="folding ">
+
+    <div class="container">
+      <div class="card">
+        <img src="images/card1.jpg">
         <div class="card-body">
           <h5 class="card-title">Foldable Phones</h5>
-          <p class="card-text">dffffhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhsidew</p>
+          <p class="card-text">Check out the brand innovation in the tech world</p>
           <a href="#" class="btn btn-primary">Shop now!</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem; margin-left:20px">
-        <img src="images/h.jpg" class="card-img-top" alt=".">
+
+      <div class="card">
+        <img src="images/card2.jpg">
         <div class="card-body">
-          <h5 class="card-title">Iphone</h5>
+          <h5 class="card-title">iPhone</h5>
           <p class="card-text">dffffhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhsidew</p>
           <a href="#" class="btn btn-primary">Shop now!</a>
         </div>
       </div>
 
-      <div class="card" style="width: 18rem; margin-left:20px">
-        <img src="images/2YH2yw7gKr02DjHd.png" class="card-img-top" alt=".">
+      <div class="card">
+        <img src="images/card3.jpg">
         <div class="card-body">
           <h5 class="card-title">Oppo</h5>
           <p class="card-text">dffffhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhsidew</p>
@@ -119,8 +116,8 @@
         </div>
       </div>
 
-      <div class="card" style="width: 18rem; margin-left:20px">
-        <img src="images/g.webp" class="card-img-top" alt=".">
+      <div class="card">
+        <img src="images/card4.jpg">
         <div class="card-body">
           <h5 class="card-title">Google Phone</h5>
           <p class="card-text">dffffhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhsidew</p>
@@ -131,7 +128,7 @@
   </div>
 
   <div id="faq">
-    <h1>FAQ's</h1>
+    <h1 class = "heading">FAQ's</h1>
   </div>
 
   <div class="accordion accordion-flush" id="accordionFlushExample">
