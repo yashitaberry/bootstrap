@@ -10,10 +10,10 @@
   <link href="./sample.css" rel="stylesheet" />
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<body class = "text-white bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand logo" href="#" style = "font-size: 35px;">Phones Forever</a>
+      <a class="navbar-brand logo" href="sample.html" style = "font-size: 35px;">Phones Forever</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false">
         <span class="navbar-toggler-icon"></span>
@@ -22,7 +22,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#deals">Today's deals</a>
@@ -31,19 +31,19 @@
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Filter
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">High to low</a></li>
-              <li><a class="dropdown-item" href="#">Low to High</a></li>
+            <ul class="dropdown-menu bg-dark">
+              <li><a class="dropdown-item text-white" href="#">High to low</a></li>
+              <li><a class="dropdown-item text-white" href="#">Low to High</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">According to phone model</a></li>
+              <li><a class="dropdown-item text-white" href="#">According to phone model</a></li>
             </ul>
           </li>
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" id = "search-bar" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" id = "search-button" type="submit">Search</button>
+          <button class="btn btn-outline-light" id = "search-button" type="submit">Search</button>
         </form>
       </div>
     </div>
@@ -81,16 +81,17 @@
 
 
 
-  <div id="deals">
-    <div id="heading">
-      <h1 class = "heading">
-        Check out our offers for today!
+  <div id="deals container-fluid">
+    <div class = "heading pt-3">
+      <h1 class = "heading pt-5 pb-2" style="text-align: center;">
+        <strong>Check out our offers for today!</strong>
       </h1>
     </div>
 
     <div class="container">
-      <div class="card">
-        <img src="images/card1.jpg">
+
+      <div class="card mx-auto ms-3">
+        <img src="images/card1.jpg" class = "mb-3">
         <div class="card-body">
           <h5 class="card-title">Foldable Phones</h5>
           <p class="card-text">Check out the brand innovation in the tech world</p>
@@ -98,8 +99,8 @@
         </div>
       </div>
 
-      <div class="card">
-        <img src="images/card2.jpg">
+      <div class="card mx-auto ms-3">
+        <img src="images/card2.jpg" class = "mb-3">
         <div class="card-body">
           <h5 class="card-title">iPhone</h5>
           <p class="card-text">dffffhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhsidew</p>
@@ -107,8 +108,8 @@
         </div>
       </div>
 
-      <div class="card">
-        <img src="images/card3.jpg">
+      <div class="card mx-auto ms-3">
+        <img src="images/card3.jpg" class = "mb-3">
         <div class="card-body">
           <h5 class="card-title">Oppo</h5>
           <p class="card-text">dffffhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhsidew</p>
@@ -116,10 +117,10 @@
         </div>
       </div>
 
-      <div class="card">
-        <img src="images/card4.jpg">
+      <div class="card mx-auto ms-3">
+        <img src="images/card4.jpg" class = "mb-3">
         <div class="card-body">
-          <h5 class="card-title">Google Phone</h5>
+          <h5 class="card-title">Pixel</h5>
           <p class="card-text">dffffhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhsidew</p>
           <a href="#" class="btn btn-primary">Shop now!</a>
         </div>
@@ -128,7 +129,9 @@
   </div>
 
   <div id="faq">
-    <h1 class = "heading">FAQ's</h1>
+    <h1 class = "heading pt-5 pb-2" style="text-align: center;">
+      <strong>FAQs</strong>
+    </h1>
   </div>
 
   <div class="accordion accordion-flush" id="accordionFlushExample">
